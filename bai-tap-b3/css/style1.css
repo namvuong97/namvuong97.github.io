@@ -1,0 +1,29 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+}
+.main {
+	height: 300px;
+}
+img {
+	width: 300px;
+	float: left;
+}
+ul {
+	float: left;
+}
+ul li {
+	vertical-align: middle;
+}
+ul li.word {
+	font-size: 30px;
+	color: darkgoldenrod;
+	list-style: none;
+}
+ul li a {
+	text-decoration: none;
+	line-height: 70px;
+}
