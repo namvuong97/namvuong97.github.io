@@ -5,7 +5,9 @@ h1 {
 	text-align: center;
 	text-transform: capitalize;
 }
-.main {width: 100%;}
+.main {
+	width: 100%;
+}
 div {
 	width: 33%;
 	float: left;
