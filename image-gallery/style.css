@@ -12,9 +12,10 @@ body {
     margin: 0 auto;
 }
 .main {
-    text-align: center;
     box-shadow: 0px 2px 6px 2px rgba(11, 27, 35, 0.7);
     margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 35px;
 }
 .main h1 {
@@ -22,10 +23,19 @@ body {
     font-size: 38px;
     text-transform: capitalize;
     text-shadow: 1px 2px 3px #6d4d4d;
+    cursor: pointer;
+}
+.main-head-1 {
+    width: 50%;
+    padding: 0 10px 0 10px;
+}
+.main-head-2 {
+    width: 50%;text-align: center;
+    padding: 0 10px 0 10px;
 }
 img {
 	max-width: 100%;
-	box-shadow: 1px 1px 7px 4px rgba(91, 89, 139, 0.8);
+	
 }
 .container-1 {
     padding-top: 60px;
@@ -39,5 +49,16 @@ ul li {
    flex-basis: calc(100% / 3);
     padding: 20px 9px 16px 9px;
     list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.main-head-2 ul li:hover {
+    transition: 0.5s;
+    color: red;
+}
+.container-1 ul li:hover {
+    transition: 0.6s;
+    box-shadow: 1px 1px 7px 4px rgba(91, 89, 139, 0.8);
 }
 
