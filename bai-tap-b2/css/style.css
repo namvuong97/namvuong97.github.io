@@ -1,0 +1,52 @@
+ ul {
+	list-style: none;
+	padding-left: 0;
+}
+li {
+	width: 100px;
+	border: 1px solid black;
+}
+.lv1 {
+	
+    display: inline-block;
+}
+.lv2 {
+	position: absolute;
+	visibility: hidden;
+	left:-1px;
+}
+.lv3 {
+	visibility: hidden;
+	position: absolute;
+	left: 100px;
+	top: -1px;
+}
+.hover:hover >ul {
+	visibility: visible;
+}
+.hover {
+	position: relative;
+}
+.menu2: nth-child(1), .menu nth-child(2),  .menu nth-child(3){
+
+}
+ /* img {
+ 	transition-property: border-radius;
+ 	transition-duration: 1s ;
+ 	transition-timing-function: linear, ease;
+ 	 transition-delay: 0.5s 
+
+ }
+ img:hover {
+ 	border-radius: 25px;
+ 	opacity: 0.5;
+ }
+ main {
+ 	transition-property: transform;
+ 	transition-duration: 0.5s;
+ 	transition-timing-function: linear, ease;
+ 	transition-delay: 0.5s;
+ }
+ .main:hover {
+ 	transform: rotate(-10deg);
+ } */

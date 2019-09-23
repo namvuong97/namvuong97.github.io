@@ -1,0 +1,14 @@
+
+@keyframes changeColor {
+0% {background-color: red;}
+50% {background-color: blue;}
+100% {background-color: yellow;}
+}
+h1 { 
+animation-name: changeColor;
+ animation-duration: 3s;
+animation-play-state: running;
+/* animation-iteration-count: 2;
+animation-direction: reverse; */
+}
+

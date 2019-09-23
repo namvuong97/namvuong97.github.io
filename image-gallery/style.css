@@ -61,4 +61,7 @@ ul li {
     transition: 0.6s;
     box-shadow: 1px 1px 7px 4px rgba(91, 89, 139, 0.8);
 }
-
+img:hover {
+    transform: scale(1.5, 1.5);
+    transition: 1s;
+}

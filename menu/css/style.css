@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+
+}
+img {
+	width: 100%;
+}
+.header-top {
+	background-color: cadetblue;
+	padding: 12px 0px;
+}
+.header-main {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.same {
+	width: 50%;
+	vertical-align: top;
+}
+.social {
+	text-align: right;
+}
+.header-right .social .social-1 {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	border: none;
+	width: 18px;
+}
+.header-right .social li:last-child {
+	margin-right: 0px;
+}
+.header-right .social li a{
+	color: #fff;
+	font-size: 18px;
+}
+
+.logo {
+	    width: 280px;
+}
+.header-contact {
+	width: 920px;
+	text-align: end;
+}
+.header-item-1 {
+	margin-right: 80px;
+}
+.main {
+	display: inline-block;
+}
+.logo-1 {
+	border: 1px solid red;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	color: #ec3535;
+	margin-right: 10px;
+	vertical-align: top;
+}
+.logo-1 i {
+	line-height: 50px;
+	font-size: 25px;
+}
+.header-list h6 {
+	font-size: 18px;
+	text-align: left;
+}
+.header-list p {
+	font-size: 16px;
+}
+/* .content {
+	width: 100%;
+	
+}
+.content .flex {
+		 display: flex;
+		flex-wrap: wrap;
+		justify-content: center; 
+} */
+/* .content .flex li {
+	list-style: none;
+	padding: 20px 0px;
+}
+.content .flex li a {
+	   padding: 0 15px;
+	   text-decoration: none;
+}
+
+.content .level1 {
+}
+.content .level1 .level-childern {
+	padding: 0;	
+	background-color: #fff;
+} */
+
+
+
+/* .header-bottom {
+	background-color: #c1b5b5;
+}
+.flex-bottom {
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	width: 150px;
+	list-style: none;
+}
+.lv1 {
+	border: none;
+    display: inline-block;
+    padding: 15px 18px;
+}
+.lv2 {
+	position: absolute;
+	visibility: hidden;
+	left:-1px;
+	top: 57px;
+}
+.lv3 {
+	visibility: hidden;
+	position: absolute;
+	left: 150px;
+	top: -1px;
+}
+.hover:hover > ul {
+	visibility: visible;
+}
+.hover {
+	position: relative;
+}
+.mn3 {
+	line-height: 40px;
+	background-color: cadetblue;
+}
+.content li:hover {
+	cursor: pointer;
+	background-color: green;
+} */
+
+.header-bottom {
+	background-color:#fff;
+	border-bottom: 2px solid #ec0b0b;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li.page > a {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+}
+nav ul li {
+	float: left;
+	border-right: 1px solid black;
+	padding: 0 12px;
+	position: relative;
+	
+}
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 8px 0;
+	color: black;
+}
+nav ul li a:hover {
+	cursor: pointer;
+	color: red;
+}
+nav ul li > ul {
+	position: absolute;
+	background-color: lightblue;
+	left: 0;
+	visibility: hidden;
+	padding: 20px 0;
+	top: 37px;
+}
+nav ul li > ul li {
+	width: 150px;
+	
+}
+nav ul li > ul li a {
+	color: black;
+	text-transform: capitalize;
+	font-size: 14px;
+	padding: 5px 12px;
+}
+nav ul li > ul li a i {
+	float: right;
+	font-size: 16px;
+}
+nav ul li:hover > ul {
+	visibility: visible;
+}
+nav ul li:hover > ul li {
+	border-right: none;
+}
+nav ul li > ul li ul {
+	margin-left: 150px;
+	top: 0;
+	left: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.default {
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+
+}
