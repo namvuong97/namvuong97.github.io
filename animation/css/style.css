@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	background-image: url('http://pm1.narvii.com/7161/fed115ee2f0c30bb1ff24428126486c07b0618c3r1-1024-576v2_uhq.jpg');
+	background-size: cover;
+	height: 634px;
+	animation: phongto 4s ease-out forwards;
+	position: relative;
+	animation-iteration-count: 3;
+	
+	
+}
+.container h2 {
+	width: 450px;
+	height: 50px;
+	box-sizing: border-box;
+	padding:5px 10px;
+	text-align: center;
+	color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -200px;
+	font-size: 40px;
+	font-family: tahoma;
+	opacity: 0;
+	animation: dongchu 4s forwards;
+	animation-delay: 1.5s;
+	animation-iteration-count: 3;
+
+	
+
+}
+
+
+
+@-webkit-keyframes phongto {
+	from {
+		transform: scale(0.6);
+
+	}
+	to {
+		transform: scale(1);
+	}
+}
+@-webkit-keyframes dongchu {
+	from {
+		opacity: 0;
+		margin-top: -350px;
+	}
+	to {
+		opacity: 1;
+		margin-bottom: -500px;
+	}
+
+}
