@@ -91,7 +91,7 @@ h1 {
         right:0;
         bottom:0;
         margin:auto;
-        width:50%;
+        width:55%;
 }
  @keyframes tuyet {
     from {
@@ -118,7 +118,7 @@ h1 {
 @-webkit-keyframes chuchay {
   from {
       opacity: 0;
-     margin-top: -400px;
+     margin-top: -150px;
   }
   to {
     opacity: 1;
