@@ -14,7 +14,7 @@ h1 {
   text-transform: uppercase;
   animation-name: chuchay;
    animation-duration: 4s ;
-   animation-delay: 2s;
+   animation-delay: 2.5s;
    opacity: 0;
    animation-iteration-count: infinite;
   font-family: 'Courgette', cursive;
@@ -129,5 +129,5 @@ h1 {
    50% { 
     transform: rotate(100deg) translate(0px, 50px);
   }
-  
+
 }
