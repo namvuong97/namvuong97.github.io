@@ -1,0 +1,21 @@
+.parent {
+	border: 1px solid red;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.child {
+	border: 1px solid black;
+	flex-basis: 100px;
+
+}
+div.child {
+	background-color: red;
+}
+span {
+	background-color: yellow;
+}

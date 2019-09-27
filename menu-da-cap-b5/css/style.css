@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #757575;
+	text-decoration: none;
+}
+body {
+	
+
+}
+.container.fix {
+	position: fixed;
+}
+.container {
+	width: 230px;
+    height: 320px;
+    position: absolute;
+  	box-shadow: 0 0 2px 0 rgb(138, 106, 106, 0.8);
+    background-color: #fff;
+    top: 40px;
+    left: 40px;
+}
+.container ul {
+	padding: 10px 0 12px;
+
+}
+.container ul li {
+	list-style: none;
+	text-transform: capitalize;
+	position: relative;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.container ul li a{
+	
+	line-height: 25px;
+}
+.container ul li i {
+	position: absolute;
+	top: 3px;
+	right: 7px;
+	color: red;
+	font-size: 18px;
+	visibility: hidden;
+}
+.container ul li:hover > i {
+	visibility: visible;
+}
+.container ul li:hover {
+	background: #e0d7d7	;
+	
+}
+.container ul li:hover > a{
+	color: red;
+	transition: 0.2s;
+}
+.container ul li > ul li > ul li:hover{
+	background: none;
+}
+.container ul li > ul.two {
+	position: fixed;
+}
+.container ul li > ul {
+	padding: 10px 0 12px;
+    height: 298px;
+    visibility: hidden;
+    width: 230px;
+    list-style: none;
+    left: 272px;
+    top: 41px;
+   box-shadow: 0 0 2px 0 rgb(138, 106, 106);
+   position: absolute;
+}
+.container ul li:hover > ul {
+	visibility: visible;
+}
+
+.container ul li > ul li > ul.childern {
+	margin-left: 232px;
+	position: fixed;
+}
