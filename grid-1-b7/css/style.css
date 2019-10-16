@@ -1,0 +1,29 @@
+.container {
+	border: 1px solid black;
+	display: grid;
+	grid-template-rows: 50px 500px 50px;
+	grid-template-columns: 100px 500px 100px;
+}
+header {
+	background-color: red;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column:  span 1;
+	grid-column:  span 3;
+}
+main {
+	background-color: green;
+	
+}
+aside {
+	background-color: blue;
+	
+}
+footer {
+	background-color: yellow;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3;
+}

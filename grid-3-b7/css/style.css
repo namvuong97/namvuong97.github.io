@@ -1,0 +1,49 @@
+.container {
+	border: 1px solid black;
+	display: grid;
+	grid-template-rows: 50px 500px 50px;
+	grid-template-columns: 100px 500px 100px;
+	grid-template-areas: 
+		"header header header"
+		". main links"
+		"footer footer footer";
+	/*  grid-template-rows: [row-top] 50px [row-header-end row-body-start] 500px [row-body-end row-footer-start] 50px [row-bottom];
+     grid-template-columns: [column-left] 100px [aside-left-end main-start]  500px [main-end aside-right-start] 100px [column-right]; */
+
+}
+header {
+	background-color: red;
+	/* grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column:  span 1;
+	grid-column:  span 3; */
+	/* grid-column-start:column-left;
+	grid-column-end:column-right;
+	grid-row-start:row-top;
+	grid-row-end:row-bottom; */
+	grid-area: header;
+
+}
+main {
+	background-color: green;
+	grid-area: main;
+	
+}
+.ads {
+	background-color: blue;
+	grid-area: ads;
+	
+}
+.links {
+	background-color: orange;
+	grid-area: links;
+}
+footer {
+	background-color: yellow;
+	/* grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3; */
+	grid-area: footer;
+}
