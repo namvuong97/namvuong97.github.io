@@ -1,0 +1,60 @@
+button, input {outline: none;}
+
+body{
+	font-family: sans-serif;
+}
+.container {
+width: 300px; 
+height: auto; 
+margin: 20px auto; 
+padding: 10px;
+border: 1px solid #666; 
+border-radius: 4px;
+}
+
+.box-text1{
+	width: 285px;
+    background-color: #f7f8f9;
+    border: 1px solid #666;
+    padding: 5px 7px;
+    font-size: 20px;
+    margin: 0;
+    height: 30px;
+    text-align: right;
+    border-bottom: none;
+}
+.box-text2{
+	 width: 285px;
+    background-color: #f9f9f9;
+    border: 1px solid #666;
+    padding: 5px 7px;
+    font-size: 20px;
+    border-top: none;
+    margin: 0px;
+    height: 30px;
+    text-align: right;
+}
+.box-button {
+	height: 400px;
+
+}
+.operator, .number{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	border-radius: 5px;
+	font-weight: normal;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.single{
+	width: 200px;
+}
+.operator:hover{
+	background-color: #adac8e;
+}
+.number:hover {
+	background-color: #adac8e;
+}

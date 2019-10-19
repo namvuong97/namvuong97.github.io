@@ -1,3 +1,4 @@
+
 function value() {
 	return document.getElementById("history-val").innerText;
 }
@@ -24,6 +25,9 @@ function formatNumber(num) {
 function reverseNumber(num){
 	return Number(num.replace(/,/g,''));
 }
+function addnumber(num){
+	var out =reverseNumber
+}
 
 var operators = document.getElementsByClassName("operator");
 for (var i = 0; i < operators.length; i++) {
@@ -32,9 +36,17 @@ for (var i = 0; i < operators.length; i++) {
 			printhistory("");
 			printout("");
 		}
+		else if (this.id=="all") {
+					var out= reverseNumber(getout()).toString();
+					if (out) {
+						out=out.substr(0,out.length-1);
+						printout(out);
+
+				}
+		}
 		else{
 			var output =getout();
-			var history =value();
+			var history =value();	
 			if (output!="") {
 				output =reverseNumber(output);
 				history =history + output ;
@@ -48,6 +60,7 @@ for (var i = 0; i < operators.length; i++) {
 					printhistory(history);
 					printout("");
 				}
+
 			}
 		}
 		
@@ -63,3 +76,4 @@ for (var i = 0; i < theNumber.length; i++) {
 		}
 	});
 }
+

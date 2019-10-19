@@ -2,24 +2,24 @@ button, input {outline: none;}
 
 body{
 	font-family: sans-serif;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,45,1) 0%, rgba(0,212,255,1) 100%);
+
 }
 #container {
-	color: #3f51b5;
+	
 	margin: 20px auto;
 }
 #calculator {
 	width: 280px;
 	height: 500px;
-	background-color: #acedfa;
+	background-color: #676a6b;
 	margin: 0 auto;
 	top: 20px;
 	position: relative;
 	border-radius: 3px;
 }
 #resut{
-	height: 120px;
-
+	height: 100px;
+	background-color: #d8d2d2;
 }
 #history {
 	text-align: right;
@@ -32,7 +32,10 @@ body{
 	margin: 0 15px;
 	padding-top: 20px;
 	font-size: 15px;
-	color: darkgreen;
+	
+}
+#all{
+	width: 190px!important;
 }
 #knot {
 	height: 400px;
@@ -53,8 +56,22 @@ body{
 	background-color: #afa5af;
 }
 .operator:hover{
-	background-color: red;
+	background-color: #fff;
 }
 .number:hover {
-	background-color: red;
+	background-color: #fff;
 }
+.dot {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	float: left;
+	border-radius: 5px;
+	font-weight: normal;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+
+ 
