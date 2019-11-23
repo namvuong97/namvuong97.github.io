@@ -1,0 +1,31 @@
+
+.slide-container {
+  display: flex;
+  padding-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.slide-item {
+  height: 100px;
+  width: 100px;
+  background-color:#4edfcd;
+  line-height: 100px;
+  color:black;
+}
+
+.slide-next{
+  position: absolute;
+  top: 6%;
+  left: 55%;
+  font-size: 25px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.slide-prev{
+  position: absolute;
+  top: 6%;
+  right: 55%;
+  font-size: 25px;
+  line-height: 50px;
+  cursor: pointer;
+}
