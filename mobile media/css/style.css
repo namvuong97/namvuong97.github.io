@@ -1,0 +1,283 @@
+body {
+			margin: 0;
+		}
+.container-b1 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 15px;
+	padding: 15px;
+}
+.child {
+	max-width: 100%;
+}
+
+@media (max-width: 568px) {
+.container-b1 {
+	padding: 20px;
+	grid-template-columns: auto;
+	}
+}
+
+
+
+.container-b2 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 15px;
+	padding: 0 20%;
+}	
+.child {
+	max-width: 100%;
+}
+.row{
+	display: grid;
+	width: 100%;
+	height: 30px;
+}
+.row img{
+
+}
+@media (max-width: 568px) {
+.container-b2 {
+	padding:0 20%;
+	grid-template-columns: auto;
+	}
+}
+
+
+
+
+/* 
+.nav{
+	display: grid;
+    grid-template-columns: calc(70% - (30px * 1/2)) calc(30% - (30px * 1/2));
+    grid-column-gap: 20px;
+    width: 100%;
+}
+.product{
+	display: grid;
+	width: 100%;
+	height: 30px;
+}
+.container-b3{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 15px;
+	padding: 0 0 0 15px;
+}
+.container-b3 img{
+	width: 100%;
+	height: 100%;
+}
+.rows{
+	display: grid;
+	grid-template-columns: auto;	
+}
+.rows img{
+	width: 100%;
+}
+
+@media(max-width: 568px){
+	.rows{
+		grid-template-rows: auto;
+	}
+} */
+
+
+
+
+
+
+/* .pow{
+	display: grid;
+	grid-template-columns: 120px 120px auto 120px;
+	
+
+}
+  .pow img{
+	width: 90px;
+	height: 30px;
+	background-color: #ffffff;
+  	text-align: center;
+  	padding: 15px;
+  	font-size: 30px;
+}
+.main{
+	display: grid;
+	 grid-gap: 15px;
+	 grid-template-columns: auto;
+}
+.main img{
+	width: 100%;
+}
+
+@media(max-width: 568px){
+	.main{
+		grid-template-columns: auto;
+	}
+} */
+
+
+
+
+
+
+
+
+.container-b5{
+	display: grid;
+	 grid-gap: 15px;
+	 grid-template-columns: auto auto auto;
+	 justify-content: space-between;
+	 height: 50px;
+	 padding: 20px;
+}
+.container-b5 img{
+	width: 90px;
+	height: 30px;
+background-color: #ffffff;
+  padding: 20px 0;
+}
+.mains{
+	display: grid;
+	 grid-gap: 10px;
+	 grid-template-columns: auto auto;
+	 padding: 20px 15px 40px 15px;
+}
+.mains img{
+	width: 100%;
+}
+@media (max-width: 568px){
+	.mains{
+		grid-gap: 15px;
+		grid-template-columns: auto;
+		padding: 0px 10px 20px 10px;
+	}
+}
+
+
+
+
+/* .product{
+	display: grid;
+	grid-template-columns: auto auto;
+} */
+/* .product .inline {
+	display: inline-block;
+  	 padding: 10px;
+    vertical-align: top;
+}
+.product .inline-1{
+	display: inline-block;
+    text-align: right;
+    float: right;
+    clear: both;
+    padding: 10px;
+}
+.product button{
+	width: 80px;
+	height: 50px;
+}
+.product .inline-1 ul{
+	margin: 0;
+	padding: 15px 10px 15px;
+    border: 1px solid;
+}
+.product .inline-1 ul li{
+	display: inline-block;
+	border-right: 1px solid black;
+	padding: 0 5px;
+}
+.product .inline-1 ul li:last-child{
+	border-right: none;
+}
+.container-b6 {
+	padding: 15px 15px 0 15px;
+}
+.container-b6 img {
+	width: 100%;
+}
+@media (max-width: 568px){
+	.product{
+		grid-template-columns: auto;
+	}
+}
+
+
+
+
+
+
+
+
+.products{
+	display: flex;
+	justify-content: space-between;
+}
+.products .line {
+	display: inline-block;
+  	 padding: 15px;
+    vertical-align: top;
+}
+.products .line-1{
+	display: inline-block;
+    text-align: right;
+    float: right;
+    clear: both;
+    padding: 15px;
+}
+.products .line-2{
+	display: inline-block;
+    text-align: right;
+    float: right;
+    clear: both;
+    padding: 15px;
+}
+.products button{
+	width: 80px;
+	height: 50px;
+}
+.products .line-1 ul{
+	margin: 0;
+	padding: 15px 10px 15px;
+    border: 1px solid;
+}
+.products .line-1 ul li{
+	display: inline-block;
+	border-right: 1px solid black;
+	padding: 0 5px;
+}
+.products .line-1 ul li:last-child{
+	border-right: none;
+}
+
+.products .line-2 ul{
+		margin: 0;
+	padding: 15px 10px 15px;
+    border: 1px solid;
+}
+.products .line-2 ul li{
+	display: inline-block;
+	border-right: 1px solid black;
+	padding: 0 5px;
+
+}
+.products .line-2 ul li:last-child{
+	border-right: none;
+}
+.container-b7 {
+	display: grid;
+	grid-template-columns: 80% 19%;
+	padding: 15px 15px 15px 15px;
+	grid-gap: 15px;
+}
+.container-b7 img {
+	width: 100%;
+}
+
+.container-b7 .anh2 {
+	height: 100%
+}
+
+
+ */
