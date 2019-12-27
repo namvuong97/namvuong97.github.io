@@ -1,0 +1,33 @@
+@import './module/header.css';
+@import './module/menu.css';
+@import './module/footer.css';
+@import './module/golbal.css';
+body{
+	background-color: #ffffff;
+    line-height: 25px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    visibility: visible;
+    font-family: "Poppins", sans-serif;
+    color: #454545;
+    position: relative;
+}
+p:last-child{
+	margin-bottom: 0px;
+}
+
+a, button{
+	text-decoration: none!important;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul{
+	list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    
+}
