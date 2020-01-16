@@ -1,0 +1,86 @@
+.breadcrumb li>a{
+	color: #898989;
+}
+/* .breadcrumb li>a>span{
+	color: #898989;
+} */
+.breadcrumb{
+	font-family: "Gotham",sans-serif;
+    margin: 0;
+    font-size: 14px;
+    padding: 15px 0px 15px;
+    border-radius: 0;
+    line-height: 24px;
+    background-color: #fff;
+    border-bottom: solid 1px #ebebeb;
+}
+.breadcrumb li .mr-lr{
+	padding: 0px 5px;
+    color: #898989;
+}
+
+.breadcrumb li span .fa{
+	    color: #898989;
+    padding: 0px 5px;
+}
+.breadcrumb li strong{
+	color: #333;
+    font-weight: 400;
+    text-decoration: none;
+}
+.breadcrumb li a:hover{
+	color: #7AA227 !important;
+}
+.mg-30{
+    margin-top: 30px;
+}
+
+
+
+.row.center{
+    justify-content: center;
+}
+
+.page-login .form-signup .form-group input{
+	height: 45px;
+    padding: 0 20px;
+    color: #333;
+    line-height: 45px;
+    border-radius: 0px;
+    box-shadow: none;
+    border-radius: 5px;
+   width: 100%;
+   outline: none;
+   border: 1px solid #ebebeb;
+}
+input[type="password"]{
+	 border: 1px solid #ebebeb;
+    padding: 0 20px;
+ 
+}
+.page-login .form-signup .button-50.with-100{
+    border-radius: 5px;
+    background-color: #7aa727;
+    color: #ffffff;
+}
+.button-50:hover{
+    border-color: #7aa727;
+    background-color: #ffffff!important ;
+    border: 1px solid #7aa727;
+    color: #7aa727!important;
+}
+.page-login .form-signup .have-ac{
+    font-family: 'Gotham', sans-serif;
+    font-size: 15px;
+    color: #898989;
+    margin-left: 15px;
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+}
+.page-login .form-signup a{
+    color: #333;
+}
+.page-login .form-signup a:hover{
+    text-decoration: underline!important;
+}

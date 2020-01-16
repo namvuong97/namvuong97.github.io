@@ -1,0 +1,183 @@
+btn{
+    outline: none;
+}
+.main-container .col-main .cart-thead{
+	background: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    clear: both;
+    width: 100%;
+    float: left;
+    min-width: 600px;
+    border-bottom: solid 1px #ebebeb;
+    padding: 0px;
+}
+.main-container .col-main .cart-thead div{
+	font-family: 'Montserrat', sans-serif;
+    float: left;
+    padding: 10px 0px;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.a-left{
+	text-align: left!important;
+}
+.a-center{
+	text-align: center!important;
+}
+.a-right{
+    text-align: right!important;
+    padding-right: 0px!important;
+}
+.main-container .col-main  .bg-scroll{
+	border-top: none;
+    margin-top: 20px;
+    overflow: hidden;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.main-container .col-main .cart-tbody .item-cart div{
+	float: left;
+    padding: 20px 10px 20px 0px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.main-container .col-main .cart-tbody .item-cart{
+	border-bottom: 1px solid #ebebeb;
+    width: 100%;
+    float: left;
+}
+.main-container .col-main .cart-tbody .item-cart .product-image{
+	
+    padding: 0 10px;
+}
+.main-container .col-main .cart-tbody .remove{
+    font-family: 'Montserrat', sans-serif;
+    color: #898989;
+    font-size: 14px;
+    border-radius: 50%;
+}
+.main-container .col-main .cart-tbody .remove:hover{
+    text-decoration: underline!important;
+}
+.main-container .col-main .cart-tbody .remove i{
+    margin-right: 5px;
+}
+.main-container .col-main .cart-tbody .item-cart .price{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #de4343;
+}
+.main-container .col-main .cart-tbody .item-cart div .input-pr{
+	height: auto;
+    border-right: none;
+    width: 120px;
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+    border-left: 0px;
+    height: 40px;
+}
+.main-container .col-main .item-cart .number-sidebar{
+	border: 1px solid #ebebeb;
+    height: 35px;
+    margin-left: -1px;
+    text-align: center;
+    width: 115px;
+    margin-right: -1px;
+    padding: 0;
+    line-height: 15px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.main-container .col-main .cart-tbody .item-cart div .input-pr .item-count{
+	outline: none;
+    background: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    line-height: 14px;
+    color: #898989;
+    border: 0px solid #ddd;
+    height: 18px;
+    width: 25px;
+	
+}
+.main-container .col-main .cart-tbody .item-cart div .input-pr .btn-plus{
+	right: 7px;
+    top: 2px;
+
+}
+.main-container .col-main .cart-tbody .item-cart div .input-pr .btn-minus{
+    right: 7px;
+    top: 15px;
+}
+.cart-collaterals{
+        padding: 20px 10px 20px 0px;
+}
+.total_price{
+    text-align: right
+}
+.total_price .price{
+    color: #de4343;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.main-container .col-main .checkout-button{
+    text-align: right;
+}
+.main-container .col-main .proced{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 45px;
+    color: #fff;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #9bd031;
+    border: solid 1px #9bd031;
+    padding: 0px 30px;
+    text-align: right;
+    margin-right: 30px;
+    outline: 0;
+    transition: all 0.3s ease 0s;
+}
+.main-container .col-main button.proced:hover{
+    color: #7aa727;
+    background-color: #fff;
+    border-color: #7aa727;
+}
+.main-container .col-main .btn-white{
+    border: 1px solid #F16C52;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 50px;
+    background: #F16C52;
+    color: #fff;
+    padding: 5px 30px;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+    outline: 0;
+}
+.main-container .col-main button.btn-white:hover{
+    color: #F16C52;
+    background-color: #fff;
+    border-color:#F16C52;
+
+}
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+.chect-out button{
+    outline: 0;
+}

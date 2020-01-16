@@ -1,22 +1,24 @@
-
+.navbar{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.navbar .nav-item a.first-a:first-child{
+    padding-left: 0px;
+}
 
 .header-top{
 	padding: 10px 0;
     border-bottom: 1px solid black;
 }
 
-.header-top a{
+.header a{
 	color: #454545;
 }
 
-.header-top a:hover{
+.header a:hover{
    color: #7AA227;
 }
-/* .header-bottom-area .wrap-s
-{
-    width: 220px;
-    height: 50px;
-} */
+
 
 
 .acount {
@@ -46,13 +48,19 @@
     float: left;
     display: inline-block;
 }
+.header-bottom-area .inline-contact .icon:hover{
+    background-color: #7aa727;
+    color: #ffffff;
+}
+.header-bottom-area .inline-contact .icon i{
+    transition: all 0.3s ease-in-out;
+   }
 .wrap-s .icon{
 	width: 50px;
     height: 50px;
     line-height: 50px;
-    font-size: 26px;
+    font-size: 22px;
     border: solid 1px #7AA227;
-    display: inline-block;
     float: left;
     text-align: center;
     border-radius: 50%;

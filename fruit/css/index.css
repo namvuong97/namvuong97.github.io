@@ -2,6 +2,14 @@
 @import './module/menu.css';
 @import './module/footer.css';
 @import './module/golbal.css';
+@import './module/main-menu/dndk.css';
+@import './module/main-menu/giothieu.css';
+@import './module/main-menu/chitietsp.css';
+@import './module/main-menu/tintuc.css';
+@import './module/main-menu/chitiettintuc.css';
+@import './module/main-menu/lienhe.css';
+@import './module/main-menu/chitietgiohang.css';
+@import './module/main-menu/dstraicay.css';
 body{
 	background-color: #ffffff;
     line-height: 25px;

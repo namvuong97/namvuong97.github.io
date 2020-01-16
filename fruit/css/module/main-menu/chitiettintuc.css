@@ -1,0 +1,59 @@
+.content-p{
+	
+	}
+.section-product h5{
+	margin-bottom: 11px;
+	font-weight: 600;
+	color: #333;
+	font-size: 16px;
+
+}
+.capacity{
+	font-weight: 600;
+	font-size: 16px;
+}
+.section-product h5:hover{
+	color: #7aa727;
+    transition: all 0.3s ease 0s;
+}
+.content-details-left .title-modal h2{
+	font-size: 16px;
+	font-weight: 600;
+}
+.section-product .img-left img{
+	
+}
+.section-product .img-left{
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+
+.list-blogs .blog-list-item .blog-item .img-content-right img{
+	width: 100%;
+
+}
+.blog-list-item .blog-item-list{
+	padding: 20px 0px 25px 0px;
+    margin: 0px 0px !important;
+    position: relative;
+    border-bottom: solid 1px darkgray;
+}
+.list-blogs{
+	border-top: 1px dashed darkgray;
+}
+.list-blogs .blog-list-item .blog-item .content-right{
+	margin-top: 18px;
+}
+
+.list-blogs .blog-list-item .view-more-blog{
+	display: block;
+	margin-top: 16px;
+}
+.list-blogs .blog-list-item .view-more-blog a{
+	color: #7aa727
+}
+.img-lefts{
+	text-align: center;
+	margin: 10px 0 10px;
+}

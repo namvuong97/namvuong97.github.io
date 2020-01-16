@@ -1,0 +1,221 @@
+.footer-widget {
+	
+}
+.wid-one {
+display:flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+.wid-two{
+    margin-bottom: 30px;
+}
+.footer-inner .footer-widget {
+	align-items: center;
+    position: relative;
+}
+.footer-inner .footer-widget .footer-suport{
+	margin-left: 15px;
+}
+.footer-inner .footer-widget .footer-suport li .fas{
+    width: 20px;
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 1px;
+    
+}
+.footer-inner .footer-widget .list-menu li .fas{
+	margin-right: 5px;
+}
+.footer-inner .footer-widget .list-menu li .far{
+	margin-right: 5px;
+}
+.footer-inner .footer-widget .footer-suport li .far{
+	 width: 20px;
+}
+.footer-inner .footer-widget .footer-suport li{
+	/* width: 270px; */
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.footer-inner .footer-widget .list-menu .first{
+	text-decoration: none;
+    width: calc(100% - 26px);
+    display: block;
+    float: left;
+    text-align: left;
+    line-height: 31px;
+}
+.footer-inner .footer-widget .list-menu span {font-size:14px;}
+.footer-inner .footer-widget h4{
+    font-family: 'Gotham', sans-serif;
+    font-size: 13px;
+    color: #333;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+.footer-inner .footer-widget h4.margin{
+    text-align: start;
+}
+.footer-inner .footer-widget .list-menu{
+    margin-bottom: 5px;
+    line-height: 27px;
+}
+.footer-inner .footer-widget .list-menu-2{
+    text-align: center;
+}
+
+.footer-inner .footer-widget .li-effect{
+    color: #707070;
+    line-height: 30px;
+    transition: 0.5s;
+}
+.footer-inner .footer-widget .li-effect a{
+    
+    font-size: 14px;
+    color: #707070;
+    line-height: 36px;
+    transition: all 0.3s ease 0s;
+}
+.footer-inner .footer-widget .li-effect a:hover
+{
+    color: #7aa727;
+}
+.footer .footer-widget .form-sub form{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.footer .footer-widget .form-sub button.btn-subcribe{
+    position: absolute;
+}
+.footer .footer-widget .form-sub button{
+    right: 0;
+    top: 22px;
+    background: #7AA227 !important;
+    border: none !important;
+    line-height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    height: 45px;
+    color: #fff !important;
+    width: 45px;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.footer .footer-widget .form-sub input{
+    font-family: 'Gotham', sans-serif;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 25px;
+    background: #ebebeb;
+    color: #898989;
+    padding-right: 50px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+input[type="email"]{
+    border: 1px solid #ebebeb;
+    padding: 0 20px;
+    
+   
+}
+.footer .follow-option{
+    margin-top: 10px;
+}
+.footer .follow-option li{
+    display: inline-block;
+    margin-right: 8px;
+   }
+.footer .follow-option .goplus{
+    background-color: #de4b39;
+}
+.footer .follow-option li a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: solid 1px transparent;
+}
+.footer .follow-option li i{
+    color: #ffffff;
+    line-height: 10px;
+}
+.footer .follow-option .facebook{
+    background-color: #3b5999;
+}
+.footer .follow-option .twitter{
+    background-color: #55acef;
+}
+.footer .follow-option .in{
+    background-color: #0976b4;
+}
+.footer .follow-option li a:hover{
+    background-color: #ffffff;
+}
+
+.footer .follow-option li a:hover.goplus{
+    border-color: #de4b39;
+}
+.footer .follow-option li a:hover.facebook{
+    border-color: #3b5999;
+}
+.footer .follow-option li a:hover.twitter{
+    border-color: #0976b4;
+}
+.footer .follow-option li a:hover.in{
+    border-color: #0976b4;
+}
+.footer .follow-option li a:hover.goplus .fa{
+    color: #de4b39;
+    transition: ease-in 0.5s;  
+}
+.footer .follow-option li a:hover.facebook .fa{
+    color: #3b5999;
+    transition: ease-in 0.5s;  
+}
+.footer .follow-option li a:hover.twitter .fa{
+    color: #0976b4;
+    transition: ease-in 0.5s;  
+}
+.footer .follow-option li a:hover.in .fa{
+    color: #0976b4;
+    transition: ease-in 0.5s;  
+}
+/* .back-to-top {
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 15px;
+    bottom: 15px;
+    font-size: 32px;
+    opacity: 0.8;
+    z-index: 9999;
+    cursor: pointer;
+    background-color: #7aa727;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+}
+.back-to-top .fa{
+    position: absolute;
+    right: 17px;
+    bottom: 14px;
+    font-size: 25px;
+} */

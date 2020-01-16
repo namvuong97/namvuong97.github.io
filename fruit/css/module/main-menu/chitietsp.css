@@ -1,0 +1,90 @@
+button, input, textarea{
+    outline: 0;
+}
+.mg-top{
+	padding-top: 50px;
+}
+.mg-bot{
+    padding-bottom: 50px;
+}
+.col_large_default img{
+	width: 100%;
+}
+.main-right .custom-btn-number{
+	position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    border: none;
+    height: auto;
+}
+.main-right .custom-btn-number .num_1{
+	border: 1px solid #e1e1e1;
+    background: #efeadd;
+    width: 44px;
+    height: 40px;
+}
+.main-right .custom-btn-number input{
+   border: 1px #e1e1e1 solid;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+
+
+}
+
+.main-right .custom-btn-number .num_2{
+	border: 1px solid #e1e1e1 ;
+    background: #efeadd;
+    width: 44px;
+    height: 40px;
+
+}
+.main-right .custom-btn-number .button{
+	margin-left: 30px;
+	background-color: #7aa727;
+	color: #fff;
+	outline: 0;
+	}
+.main-right .custom-btn-number .button span{
+	font-size: 13px;
+	font-family: 'Gotham', sans-serif;
+	
+}
+.main-right .custom-btn-number .button:hover{
+	border: 1px;    
+	background: #fff;
+    border: 1px solid #9bd031 !important;
+    color: #9bd031!important;
+}
+
+.nav-tabs .nav-link{
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    padding:8px;
+}
+.nav-link{
+    color: #333!important;
+    padding: 0;
+}
+.tab-pane{
+    padding-top: 30px;
+}
+.tab-pane textarea{
+    border-bottom: 1px solid darkgray;
+    width: 100%;
+    padding: 5px 10px;
+    height: 100px;
+    
+}
+.tab-pane button{
+    outline: 0;
+}
+.tab-pane .button-1{
+    border: 1px solid #7aa727;
+    outline: 0;
+    background-color: #7aa727;
+    color: #fff;
+}
+.nav-link active {color:#495057 !important;}

@@ -1,17 +1,12 @@
-/* .section-title{
-	border-radius: 3px;
-	position: relative;
-	margin-bottom: 50px;
-
+button{
+    outline: 0;
 }
- */
+
 .padtop{
 	padding-top: 50px;
 }
 .pt-50{
 	padding-top: 50px;
-}.mb-30{
-	margin-bottom: 30px;
 }
 .section-border{
 	text-align: center;
@@ -35,18 +30,20 @@
 }
 .section-border h4{
 	color: #444444;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 700;
     line-height: 28px;
-    padding: 3px 25px;
+    padding: 10px 25px;
     display: inline-block;
-    text-transform: capitalize;
+    text-transform: uppercase;
     background-color: #ffffff;
     border-radius: 3px;
-	margin-bottom: 0px;
-	border: 1px solid #7AA227;
+    margin-bottom: 0px;
+    border: 1px solid #7AA227;
 }
-    
+.navbar .collapse ul li a:hover{
+    color: #fff!important;
+}    
 .modal-content{
 	border: none;
 	text-align: center;
@@ -59,10 +56,7 @@
 	position: relative;
 	 
 }
-/* .menu-fruit nav{
-	width: 590px;
-	height: 50px;
-} */
+
 .menu-fruit nav a{
 	font-size: 15px;
 	color: black;
@@ -88,6 +82,9 @@
 }
 .content-tab-proindex .wrap-list .wrap-small .product-box .product-info-content {
 	margin-bottom: 15px;
+}
+.wrap-small {
+    margin-bottom: 15px;
 }
 .product-box .product-name {
     font-family: 'Gotham', sans-serif;
@@ -117,41 +114,74 @@
     position: relative;
     display: block;
 }
-.product-box .product-name a:hover{
+.tab-model .tab-content .product-thum{
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+    }
+    .tab-model .tab-content .product-box .product-info-content{
+        text-align: center;
+        margin-top: 15px;
+    }
+.product-name a:hover{
 	color: #7AA227;
 	transition: 0.2s ease-in-out;
 }
-.product-box .product-name a{
+.product-name a{
 	color: #333;
 }
 .product-box .price-fruit span{
 	color: red;
 }
+
+.product-thum{
+    box-shadow: 1px 1px 3px -1px;
+    margin-bottom: 10px;
+}
 .content-tab-proindex{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.tab-model .menu-fruit ul li a:after{
-	content: "/";
+.header-two .tab-model .menu-fruit ul li a:not(.sku)::after{
+	content: '/';
     position: absolute;
     right: -19px;
     top: 0;
 }
-.section-service .service-car.a{
+.header-three{
+    margin-bottom: 30px;    
+}
+.section-service .service-car.d{
 	background: #fff568;
     border: solid 1px transparent;
 }
-.section-service .service-car.a:hover{
+.section-service .service-car.b{
+    background: #fdc689;
+    border: solid 1px transparent;
+}
+.section-service .service-car.c{
+    background: #b6e555;
+    border: solid 1px transparent;
+}
+.section-service .service-car.d:hover{
 	background: #ffffff;
    border-color: #fff568;
+}
+.section-service .service-car.b:hover{
+    background: #ffffff;
+   border-color: #fdc689;
+}
+.section-service .service-car.c:hover{
+    background: #ffffff;
+   border-color: #b6e555;
 }
 .section-service .service-car{
 	border-radius: 5px;
     height: 120px;
-    padding: 23px 25px 10px 22px;
+    border-radius: 5px;
+    padding: 0px 14px 0px 14px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 350px;
 }
 .section-service .service-car .icon{
 	display: inline-block;
@@ -159,11 +189,10 @@
     float: left;
 }
 .section-service .service-car .icon img{
-	margin-top: 5px;
-
+	
 }
 .section-service .service-car .content-srv{
-	/* width: calc(100% - 80px); */
+	width: calc(100% - 80px);
     display: inline-block;
     float: left;
     margin-left: 25px;
@@ -177,7 +206,7 @@
     color: #333;
 }
 .section-service .service-car .content-srv .content-service{
-	    display: block;
+	    display: block;cursor: pointer;
     font-family: 'Gotham', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -185,3 +214,136 @@
     margin-top: 10px;
     color: #333;
 }
+.large-main-content .medium-content h1{
+    font-size: 32px;
+    font-family: 'Lobster', cursive;text-align: left !important;
+}
+.medium-content {text-align: justify;}
+.trademark{
+    background-color: moccasin ;
+}
+.trademark .prev-trademark .owl-carousel .outer-stage .out-stage{
+    display: flex;
+
+}
+.trademark .prev-trademark .owl-carousel .outer-stage .out-stage .owl-item{
+    padding: 10px;
+}
+.trademark .prev-trademark .owl-carousel .outer-stage .out-stage .owl-item img{
+    width: 100%;
+}
+.dropdown-menu{
+    margin-top: 6px;
+}
+.dropdown-item{
+    transition: all 0.3s ease 0s;
+}
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 40px;
+    border-radius: 30px;
+    padding: 8px;
+    background-color: #fff;
+}
+.search-input{
+    color: #333;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    
+    transition: width 0.4s linear;
+}
+.search-icon{
+    height: 24px;
+    width: 24px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    color: #7aa727;
+}
+.search-icon:hover{
+    color: #7aa727;
+}
+.searchbar:hover .search-input{
+     width: 230px;
+    padding: 0 6px;
+}
+.carousel-control-prev-icon{
+
+}
+.left .fas{
+    font-size: 30px;
+    position: absolute;
+    left: 35%;
+}
+.rights .fas{
+   font-size: 30px;
+    position: absolute;
+    right: 35%;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+.medium-content{
+    margin-top: 60px;
+}
+.img1{
+    position: relative;
+    overflow: hidden;
+}
+.img1:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+.img1:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+.img1:hover:before{
+    right: 50%;
+    left: 50%;
+    width: 0;
+    background: rgba(255,255,255,0.3);
+}
+.img1:hover:after{
+    height: 0;
+    top: 50%;
+    bottom: 50%;
+    background: rgba(255,255,255,0.3);
+}
+.mg-25{
+    margin-top: 25px;
+}
+.contents-tab1 ul li{
+    margin-right:15px;
+      
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #7aa727;
+    padding: 5px 15px;
+    border-radius:  0px !important;
+}
+.header-two .nav-link.active {
+        padding: 5px 15px;
+    color: #fff !important;
+}
+.nav-pills .nav-link {padding:5px 15px;}

@@ -1,0 +1,85 @@
+.mg-50{
+	margin-bottom: 30px;
+}
+
+
+.form-box input, .form-box textarea{
+	width: 100%;
+    border: 1px solid #c1c1c1;
+    padding: 8px 15px;
+    color: #333;
+}
+.form-box button{
+	height: 45px;
+    line-height: 45px;
+    padding: 0px 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: #7aa727;
+    padding: 0px 25px;
+    border: solid 1px #7aa727;
+}
+.but-center{
+	text-align: center;
+}
+.btn:hover{
+	color: #7aa727;
+	background-color: #ffffff;
+}
+.mbot-30{
+margin-bottom: 20px;
+}
+.contact-title{
+	text-align: center;
+}
+.form-wrapper{
+	padding: 50px 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin-top: 30px;
+}
+.form-wrapper .title-3{
+	position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.form-wrapper .title-3 h3{
+	font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-box textarea{
+	height: 170px;
+}
+.contact-info{
+	margin-top: 180px;
+}
+.contact-info ul li{
+	margin-bottom: 25px;
+}
+.contact-text i{
+	font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #7aa727;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    background-color: #7aa727;
+}
+.contact-text i:hover{
+	background-color: #ffffff;
+	color: #7aa727;
+}
+.contact-text p{
+	margin: 0;
+}
