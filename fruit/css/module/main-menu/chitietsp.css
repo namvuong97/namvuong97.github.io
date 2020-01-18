@@ -29,8 +29,6 @@ button, input, textarea{
     height: 40px;
     text-align: center;
     outline: none;
-
-
 }
 
 .main-right .custom-btn-number .num_2{
@@ -57,7 +55,16 @@ button, input, textarea{
     border: 1px solid #9bd031 !important;
     color: #9bd031!important;
 }
+.main-right h1{
+    font-size:28px;
+}
+.main-right .price{
+    color: red;
+}
 
+.main-right .stocking{
+    color: #7aa727;
+}
 .nav-tabs .nav-link{
     border: 1px solid transparent;
     border-top-left-radius: .25rem;
@@ -87,4 +94,9 @@ button, input, textarea{
     background-color: #7aa727;
     color: #fff;
 }
-.nav-link active {color:#495057 !important;}
+.nav-link active {
+    color:#495057 !important;
+}
+.col_large_default{
+    border: 1px solid #7aa727;
+}

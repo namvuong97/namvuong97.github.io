@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Giớ thiệu</title>
+	<title>Giao diện VN store</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/fontawesome-free-5.12.0-web/css/all.min.css">
 	<link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins|icomoon&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/logo_fruit 1.png">
 </head>
 <body>
 	<header>
@@ -28,7 +29,7 @@
 								</li>
 
 								<li class="right">
-									<a href="#"><i class="fas fa-shopping-cart"></i>
+									<a href="chitietgiohang.html"><i class="fas fa-shopping-cart"></i>
 										Giỏ hàng
 									</a>
 								</li>
@@ -69,7 +70,7 @@
 									</div>
 									<div class="content-s">
 										<p class="bold">ĐỊA CHỈ CỬA HÀNG</p>
-										<span>Tầng 6 Ladeco, 266 Đội Cấn, Hà Nội</span>
+										<span>Tầng 6 Ladeco, 244 Nguyễn Trãi, Hà Nội</span>
 									</div>
 								</div>
 							</div>
@@ -90,29 +91,30 @@
 								<div class="collapse navbar-collapse" id="navbarSupportedContent">
 									<ul class="navbar-nav mr-auto">
 										<li class="nav-item active">
-											<a class="nav-link" href="#">Trang chủ
+											<a class="nav-link" href="index.html">Trang chủ
 												<span class="sr-only"></span>
 											</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#">Giới thiệu</a>
+											<a class="nav-link" href="gioithieu.html">Giới thiệu</a>
 										</li>
 										<li class="nav-item dropdown">
 											<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 												Sản phẩm
 											</a>
 											<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-												<a class="dropdown-item" href="#">Trái cây</a>
-												<a class="dropdown-item" href="#">Thực phẩm</a>
-												<div class="dropdown-item">Rau xanh</div>
-												<a class="dropdown-item" href="#">Nấm</a>
+												<a class="dropdown-item" href="danhsachtraicay.html">Trái cây</a>
+												<a class="dropdown-item" href="thucpham.html">Thực phẩm</a>
+												<a class="dropdown-item" href="Rau.html">Rau</a>
+												<a class="dropdown-item" href="Nam.html">Nấm</a>
+												<a class="dropdown-item" href="douong.html">Đồ uống</a>
 											</div>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#">Tin tức</a>
+											<a class="nav-link" href="tintuc.html">Tin tức</a>
 										</li>
 											<li class="nav-item">
-											<a class="nav-link" href="#">Liên hệ</a>
+											<a class="nav-link" href="lienhe.html">Liên hệ</a>
 										</li>
 										<li class="nav-item d-lg-none">
 											<a href="dn.html" class="nav-link">Đăng Nhập</a>
@@ -122,14 +124,11 @@
 										</li>
 									</ul>
 									<form class="form-inline my-2 my-lg-0">
-									<!-- 	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-										<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
 										<div class="searchbar">
 											<input type="text" class="search-input" placeholder="search">
 											<a href="#" class="search-icon">
 												<i class="fas fa-search"></i>
 											</a>
-
 										</div>
 									</form>
 								</div>
@@ -149,7 +148,7 @@
 							<div class="col-lg-12 a-left">
 								<ul class="breadcrumb">
 									<li class="home">
-										<a  href="#">
+										<a  href="index.html">
 											<span>Trang chủ</span>
 										</a>
 										<span class="mr-lr">
@@ -169,19 +168,19 @@
 			</div>
 			<div class="col-lg-5 mg-top mg-bot">
 					<div class="col_large_default large-image">
-						<img src="img/chitietsp/Rectangle 28.png" alt="">
+						<img src="img/img chitietsp/cam-uc-600x600.jpg" alt="">
 				</div>
 			</div>
-			<div class=" col-lg-7 details-pro mg-top mg-bot">
+			<div class=" col-lg-7 mg-top mg-bot">
 				<div class="main-right">
 					<h1>Cam thái nhập khẩu</h1>
-					<p>70.000ᵭ/KG</p>
-					<p>(Giá chưa bao gồm VAT - <span>Còn hàng</span>)</p>
+					<p class="price">70.000ᵭ/KG</p>
+					<p>(Giá chưa bao gồm VAT - <span class="stocking">Còn hàng</span>)</p>
 					<p>Theo Viện Nghiên cứu nông học quốc gia Pháp, uống nửa lít nước cam mỗi ngày có thể cải thiện áp lực máu và tái hoạt động của mạch máu </p>
 					<p>Đơn vị: <span>Kg</span></p>
 					<div class="custom-btn-number">
 						<button class=" num_1 button_qty">-</button>
-						<input type="text">
+						<input type="text" value="1">
 						<button class="num_2 button_qty">+</button>
 						<button class="btn button">
 							<span>Thêm vào giỏ hàng</span>
@@ -202,7 +201,7 @@
 					</ul>
 					<div class="tab-content" id="myTabContent">
 						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-							<p>Táo chủ yếu được tạo thành từ Carbohydrate và nước, rất giàu các loại đường đơn như fructose, sucrose, glucose. Mặc dù táo chứa carbohydrate và đường cao, những chỉ số đường huyết thấp, dao động 29-44.</p>
+							<p>Khi uống nước cam đều đặn, chúng ta - đặc biệt là trẻ nhỏ - có thể tận hưởng những dưỡng chất từ loại trái cây chua này (ít calori, giàu vitamin) và có thể giúp ngăn ngừa nguy cơ phát triển các bệnh tim mạch ở tuổi trưởng thành. Tuy nhiên, người ta cũng lưu ý rằng cam nguyên trái, chín cây và sạch có chứa nhiều hesperidin hơn, vì qua quá trình vắt ép, thành phần này dễ dàng bị thất thoát..</p>
 							<p>Chỉ số đường huyết của thực phẩm ảnh hưởng đến sự gia tăng lượng đường trong máu sau khi ăn, giá trị thấp có liên quan với những lợi ích sức khỏe khác nha. Trái cây thường có điểm số thấp về chỉ số đường huyết, có thể là do chất xơ cao và hàm lượng polyphenol giúp làm chậm quá trình tiêu hóa carbohydrat</p>
 								<p class="text-center">
 									<img src="img/chitietsp/cam-ruot-vang-my-vovimart-222-43b.jpg" alt="">
@@ -255,13 +254,13 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-12">
 							<div class="footer-widget wid-one">
-								<a href="#">
+								<a href="index.html">
 									<img src="img/logo_fruit 1.png" alt="">
 								</a>
 								<ul class="footer-suport list-menu">
 										<li>
 											<i class="fas fa-map-marker-alt"></i>
-											<span class="first">Tầng 6 Ladeco, 266 Đội Cấn, Hà Nội</span>
+											<span class="first">Tầng 6 Ladeco, 244 Nguyễn Trãi, Hà Nội</span>
 										</li>
 										<li>
 											<i class="far fa-envelope"></i>
@@ -281,19 +280,19 @@
 								</h4>
 								<ul class="list-menu list-menu-2">
 									<li class="li-effect effect">
-										<a href="">Trang chủ</a>
+										<a href="index.html">Trang chủ</a>
 									</li>
 									<li class="li-effect">
-										<a href="">Giới thiệu</a>
+										<a href="gioithieu.html">Giới thiệu</a>
 									</li>
 									<li class="li-effect">
-										<a href="">Sản phẩm</a>
+										<a href="danhsachtraicay.html">Sản phẩm</a>
 									</li>
 									<li class="li-effect">
-										<a href="">Tin Tức</a>
+										<a href="tintuc.html">Tin Tức</a>
 									</li>
 									<li class="li-effect">
-										<a href="">Liên hệ</a>
+										<a href="lienhe.html">Liên hệ</a>
 									</li>
 								</ul>
 							</div>

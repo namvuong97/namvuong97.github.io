@@ -82,9 +82,11 @@ button{
 }
 .content-tab-proindex .wrap-list .wrap-small .product-box .product-info-content {
 	margin-bottom: 15px;
+
 }
 .wrap-small {
     margin-bottom: 15px;
+     overflow: hidden;
 }
 .product-box .product-name {
     font-family: 'Gotham', sans-serif;
@@ -134,7 +136,7 @@ button{
 }
 
 .product-thum{
-    box-shadow: 1px 1px 3px -1px;
+    
     margin-bottom: 10px;
 }
 .content-tab-proindex{
@@ -294,37 +296,44 @@ button{
 .medium-content{
     margin-top: 60px;
 }
+.banner-img:hover::before{
+    background-color: rgba(255, 255, 255, 0.3);
+    left: 50%;
+    right: 50%;
+}
+.banner-img:hover::after{
+        background-color: rgba(255, 255, 255, 0.3);
+    bottom: 50%;
+    top: 50%;
+}
+
 .img1{
     position: relative;
     overflow: hidden;
 }
-.img1:before{
+.banner-img:before{
     position: absolute;
     content: '';
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
     z-index: 1;
     transition: all 0.5s ease-in-out;
 }
-.img1:after{
+.banner-img:after{
     position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
+    content: '';     
     top: 0;
     left: 0;
     transition: all 0.5s ease-in-out;
     z-index: 1;
 }
-.img1:hover:before{
+img:hover:before{
     right: 50%;
     left: 50%;
     width: 0;
     background: rgba(255,255,255,0.3);
 }
-.img1:hover:after{
+img:hover:after{
     height: 0;
     top: 50%;
     bottom: 50%;
@@ -347,3 +356,20 @@ button{
     color: #fff !important;
 }
 .nav-pills .nav-link {padding:5px 15px;}
+
+
+
+
+
+.hover01 img {
+    /* transform: scale(1.2); */
+    transition: .4s ease-in-out;
+}
+.hover01 :hover img {
+    transform: scale(1.2);
+     transition: .4s ease-in-out;
+}
+.product-info-content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
