@@ -4,8 +4,23 @@
 	<title>Slide Show</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
 </head>
 <body>
+
+<button>click me</button>
+
+
+
+<script>
+  $.getJSON('https://minhducluong.herokuapp.com/films', function(film, textStatus) {
+    alert(film[0].title);
+  });
+</script>
+
+ 
+
+
       <div class="container">
       	<div class="slide-container">
       		<div class="slide-item" >1</div>
@@ -17,7 +32,8 @@
 	      	</div>
       	</div>
       </div>
-<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+
 <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
